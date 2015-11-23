@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accuracy">
+        <item name="10">10</item>
+        <item name="20">20</item>
+        <item name="50">50</item>
+    </string-array>
+    <string-array name="graphBoundariesX">
+        <item name="0/10">0/10</item>
+        <item name="-10/10">-10/10</item>
+        <item name="0/20">0/20</item>
+        <item name="-20/20">-20/20</item>
+        <item name="0/50">0/50</item>
+        <item name="-50/50">-50/50</item>
+    </string-array>
+    <string-array name="graphBoundariesY">
+        <item name="0/10">0/10</item>
+        <item name="-10/10">-10/10</item>
+        <item name="0/20">0/20</item>
+        <item name="-20/20">-20/20</item>
+        <item name="0/50">0/50</item>
+        <item name="-50/50">-50/50</item>
+    </string-array>
+</resources>

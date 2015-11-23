@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mody.logicking.MainActivity">
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/graph" />
+    <Button
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:id="@+id/resetBtn"
+        android:background="#000000"
+        android:color="#FFFFFF"
+        android:alpha="1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/button_margin"
+        android:text="@string/btn_reset"
+        android:onClick="resetGraph"
+        />
+</RelativeLayout>

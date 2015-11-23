@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_settings" >
+        <EditTextPreference
+            android:title="@string/pref_graph_name"
+            android:defaultValue="@string/pref_default_graph_name"
+            android:key="graphName"/>
+        <ListPreference
+            android:key="accuracy"
+            android:entries="@array/accuracy"
+            android:entryValues="@array/accuracy"
+            android:title="@string/pref_accuracy" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_boundaries" >
+<!--        <ListPreference
+            android:key="boundariesX"
+            android:entries="@array/graphBoundariesX"
+            android:entryValues="@array/graphBoundariesX"
+            android:title="@string/pref_boundariesX" />-->
+        <ListPreference
+            android:key="boundariesY"
+            android:entries="@array/graphBoundariesY"
+            android:entryValues="@array/graphBoundariesY"
+            android:title="@string/pref_boundariesY" />
+    </PreferenceCategory>
+</PreferenceScreen>
