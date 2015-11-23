@@ -1,5 +1,4 @@
 # Logicking
-# Logicking
 <h2>Task</h2>
 Make an application "approximation of tabular given
 functions" on Android.
